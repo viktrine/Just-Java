@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity
         priceMessage = priceMessage + "\nAdd Chocolate? " + hasChocolate;
         priceMessage = priceMessage + "\nQuantity " + quantitu;
         priceMessage = priceMessage + "\nTotal is Ksh. "+ price;
-        priceMessage = priceMessage + "\nThank you";
+        priceMessage = priceMessage + "\n" + getString(R.string.thank_you);
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this

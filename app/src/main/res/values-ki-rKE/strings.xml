@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="thank_you">Thagyu</string>
+    <string name="orde_sum">maelezo</string>
+</resources>
